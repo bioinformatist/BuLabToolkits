@@ -26,3 +26,8 @@ shiny::runGitHub('BuLabToolkits', 'bioinformatist')
 --------
 
 使用过程中发现bug或希望改善功能，请至Issue处留言，我会及时回复。
+
+许可
+----
+
+项目遵循并使用[GNU Lesser General Public License v3.0](LICENSE)许可证。
