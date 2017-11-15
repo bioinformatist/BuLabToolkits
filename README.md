@@ -1,0 +1,28 @@
+Prof. Bu's Laboratory Toolkits
+================
+
+这是一个为卜文俊教授实验室开发的小工具。
+
+> 该项目的所有者很忙，这是一个业余开发的项目，因此短期内仍然以单个文件的[Shiny App](https://shiny.rstudio.com/)呈现。
+>
+> 在更多开发者加入之前，[我](http://icannotendure.space)会将代码重构（形成package、应用packrat等等）。
+
+开发动机
+--------
+
+减少各位重复劳动，提高工作效率。
+
+如何使用？
+----------
+
+首先安装R或者[MRO（Microsoft R Open）](https://mran.microsoft.com/)。
+
+``` r
+install.packages(c('shiny', 'data.table'))
+shiny::runGitHub('BuLabToolkits', 'bioinformatist')
+```
+
+有困难？
+--------
+
+使用过程中发现bug或希望改善功能，请至Issue处留言，我会及时回复。
