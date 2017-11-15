@@ -17,6 +17,8 @@ Prof. Bu's Laboratory Toolkits
 
 首先安装R或者[MRO（Microsoft R Open）](https://mran.microsoft.com/)。
 
+在R命令提示符下输入以下命令：
+
 ``` r
 install.packages(c('shiny', 'data.table'))
 shiny::runGitHub('BuLabToolkits', 'bioinformatist')
@@ -25,7 +27,7 @@ shiny::runGitHub('BuLabToolkits', 'bioinformatist')
 有困难？
 --------
 
-使用过程中发现bug或希望改善功能，请至Issue处留言，我会及时回复。
+使用过程中发现bug或希望改善功能，请至[Issue](https://github.com/bioinformatist/BuLabToolkits/issues/new)处留言，我会及时回复。
 
 许可
 ----
